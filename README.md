@@ -2,7 +2,8 @@
 
 ## Project Overview
 This project demonstrates a SOC Analyst Level 1 home lab using Wazuh SIEM.
-
+## Screenshots
+![Splunk SOC Lab Architecture](screenshot/wazuh-soc.jpeg)
 ## Objectives
 - Install Wazuh SIEM
 - Monitor Linux logs
@@ -15,6 +16,7 @@ This project demonstrates a SOC Analyst Level 1 home lab using Wazuh SIEM.
 - Wazuh Server
 - VirtualBox
 - Windows Host
+
 
 ## Skills Learned
 - SIEM
