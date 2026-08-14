@@ -19,5 +19,3 @@ Create a SOC Analyst home lab.
 ## Result
 Ubuntu VM was successfully created.
  
-![sysmon](screenshots/sysmon-1.jpg)
-![sysmon-2](screenshots/sysmon-2)
