@@ -2,9 +2,6 @@
 
 After setting up my Wazuh SIEM lab, I took the next step by integrating Sysmon to improve endpoint visibility and Windows telemetry.
 
-## Screenshot
-![sysmon](screenshots/sysmon-1.jpg)
-![sysmon-2](screenshots/sysmon-2.jpg)
 
 ## What I configured
 
@@ -17,6 +14,11 @@ After setting up my Wazuh SIEM lab, I took the next step by integrating Sysmon t
 ## Key Learning
 
 Sysmon provides much deeper visibility into Windows activity than standard event logs, making it easier to investigate process execution, endpoint behavior, and potential security incidents.
+
+## Screenshot
+![sysmon](screenshots/sysmon-1.jpg)
+![sysmon-2](screenshots/sysmon-2.jpg)
+
 
 ## Next Step
 
