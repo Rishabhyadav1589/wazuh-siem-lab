@@ -15,9 +15,11 @@ After setting up my Wazuh SIEM lab, I took the next step by integrating Sysmon t
 
 Sysmon provides much deeper visibility into Windows activity than standard event logs, making it easier to investigate process execution, endpoint behavior, and potential security incidents.
 
-## Screenshot
-![sysmon](screenshots/sysmon-1.jpg)
-![sysmon-2](screenshots/sysmon-2.jpg)
+### Screenshot
+
+![Sysmon Screenshot 1](screenshots/sysmon-1.jpg)
+
+![Sysmon Screenshot 2](screenshots/sysmon-2.jpg)
 
 
 ## Next Step
