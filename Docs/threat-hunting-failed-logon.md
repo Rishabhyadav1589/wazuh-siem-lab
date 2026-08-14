@@ -6,7 +6,7 @@ Documented a Threat Hunting exercise using Wazuh to investigate a Windows failed
 
 ![failed-1](/screenshots/failed-login-1.jpg)
 ![failed-2](/screenshots/failed-login-2.jpg)
-![failed-3](/screenshots/failed-login-3.jpg)
+
 
 **Investigation Details:**
 - Rule ID: `60122`
