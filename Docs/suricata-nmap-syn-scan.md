@@ -4,11 +4,11 @@ Documented the creation and testing of a custom Suricata IDS detection rule inte
 
 ## Screenshot
 
-![suricata-1](/screeshots/suricata-1.jpg)
+![suricata-1](/screenshots/suricata-1.jpg)
 
-![suricata-2](/screeshots/suricata-2.jpg)
+![suricata-2](/screenshots/suricata-2.jpg)
 
-![suricata-3](/screeshots/suricata-3.jpg)
+![suricata-3](/screenshots/suricata-3.jpg)
 
 **Detection Scenario:**
 - IDS: `Suricata`
