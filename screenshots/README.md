@@ -1,37 +1,137 @@
-### 10. 🛡️ Sigma Rule + Custom Wazuh Detection | Encoded PowerShell
+# SOC Home Lab Screenshots
 
-Created a Sigma Rule and implemented its equivalent custom Wazuh detection rule to identify suspicious Base64-encoded PowerShell execution.
+This directory contains screenshots captured during the development, testing, detection, and investigation phases of the Wazuh SOC Home Lab.
 
-**Detection Scenario:**
-- Detection: `-enc` / `-EncodedCommand`
-- Sigma Rule: `.yml`
-- SIEM: Wazuh
-- Endpoint: Windows 11
-- Telemetry: Sysmon
-- Alert Level: 12
-- MITRE ATT&CK: T1059.001 – PowerShell
-- Tactic: Execution
+The screenshots provide visual evidence of the lab environment, security telemetry, alerts, threat hunting activities, custom detection rules, and investigation workflows.
 
-**What I Did:**
-- Created a Sigma Rule for encoded PowerShell detection
-- Worked with `logsource`, `detection`, `condition`, and MITRE tags
-- Converted the Sigma logic into a custom Wazuh XML rule
-- Restarted Wazuh Manager and validated the rule
-- Executed a controlled Base64-encoded PowerShell command
-- Successfully generated a Level 12 Wazuh alert
+---
 
-**Skills Practiced:**
-- Sigma Rule Development
-- Wazuh Custom Rules
-- PowerShell Detection
-- Sysmon Telemetry
+## 📸 Screenshot Categories
+
+### 1. Wazuh Dashboard
+
+Screenshots showing the Wazuh Dashboard, security events, alerts, severity levels, and monitoring activity.
+
+---
+
+### 2. Sysmon Integration
+
+Screenshots demonstrating Sysmon integration with the Windows endpoint and Wazuh Agent.
+
+Examples:
+
+- Sysmon Event Logs
+- Process Creation
+- DNS Queries
+- Network Connections
+- Registry Changes
+- File Creation
+
+---
+
+### 3. Alert Investigation
+
+Screenshots showing investigation of Wazuh alerts and their associated event details.
+
+Examples:
+
+- Rule ID
+- Alert Level
+- Event ID
 - MITRE ATT&CK Mapping
-- Detection Engineering
-- Threat Hunting
-- SOC Operations
+- Source/Destination Information
+- Process Information
 
-**Key Learning:**
+---
 
-Sigma Rules provide vendor-neutral detection logic that can be translated into SIEM-specific rules such as Wazuh custom rules.
+### 4. Threat Hunting
 
-📄 [Read Sigma + Wazuh Detection Post](sigma-wazuh-encoded-powershell.md)
+Screenshots captured during threat hunting exercises.
+
+Examples:
+
+- Failed Login Investigation
+- PowerShell Investigation
+- Registry Persistence Investigation
+- DNS Investigation
+- SSH Brute Force Investigation
+- Network Activity Investigation
+
+---
+
+### 5. Custom Wazuh Rules
+
+Screenshots demonstrating custom detection rules created and tested in the lab.
+
+Examples:
+
+- Custom Rule ID
+- Rule Level
+- Detection Trigger
+- Wazuh Alert
+- MITRE ATT&CK Mapping
+
+---
+
+### 6. Sigma Rules
+
+Screenshots related to Sigma-based detection engineering.
+
+Examples:
+
+- Sigma Rule YAML
+- Detection Logic
+- MITRE ATT&CK Tags
+- Converted Wazuh Rule
+- Generated Wazuh Alert
+
+---
+
+### 7. Suricata Integration
+
+Screenshots demonstrating Suricata IDS integration with Wazuh.
+
+Examples:
+
+- Suricata Configuration
+- Custom Detection Rule
+- Nmap SYN Scan Simulation
+- Suricata Alert
+- Wazuh Detection
+
+---
+
+### 8. SSH Brute Force Detection
+
+Screenshots related to the controlled SSH brute-force simulation.
+
+Examples:
+
+- Kali Linux
+- SSH Connection
+- Failed Authentication Attempts
+- Wazuh Alert
+- Investigation Results
+
+---
+
+## 📂 Screenshot Naming Convention
+
+Screenshots should use descriptive filenames.
+
+Example:
+
+```text
+screenshots/
+├── wazuh-dashboard.png
+├── sysmon-process-creation.png
+├── sysmon-dns-monitoring.png
+├── sysmon-network-monitoring.png
+├── sysmon-registry-monitoring.png
+├── rule-92213-investigation.png
+├── failed-login-4625.png
+├── powershell-detection.png
+├── registry-persistence.png
+├── suricata-nmap-syn-scan.png
+├── ssh-brute-force-investigation.png
+└── sigma-wazuh-encoded-powershell.png
