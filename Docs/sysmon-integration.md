@@ -17,9 +17,9 @@ Sysmon provides much deeper visibility into Windows activity than standard event
 
 ### Screenshot
 
-![Sysmon Screenshot 1](wazuh-siem-lab/screenshots/sysmon-1.jpg)
+![Sysmon Screenshot 1](/screenshots/sysmon-1.jpg)
 
-![Sysmon Screenshot 2](screenshots/sysmon-2.jpg)
+![Sysmon Screenshot 2](/screenshots/sysmon-2.jpg)
 
 
 ## Next Step
