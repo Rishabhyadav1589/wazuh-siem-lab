@@ -4,9 +4,9 @@ Documented a controlled SSH brute-force simulation and investigation using Wazuh
 
 ## Screenshot
 
-![ssh-1](ssh-login-1.jpg)
-![ssh-1](ssh-login-2.jpg)
-![ssh-1](ssh-login-3.jpg)
+![ssh-1](/screenshots/ssh-login-1.jpg)
+![ssh-1](/screenshots/ssh-login-2.jpg)
+![ssh-1](/screenshots/ssh-login-3.jpg)
 
 
 **Lab Workflow:**
