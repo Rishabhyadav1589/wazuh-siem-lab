@@ -20,6 +20,9 @@ Investigation of a Critical Level 15 Wazuh alert related to PowerShell activity.
 
 ---
 
+## Screenshot
+![Read Investigation Post](/screenshots/investigation-1.jpg)
+
 ## 🧪 Lab Environment
 
 The LinkedIn posts are based on the following SOC Home Lab environment:
