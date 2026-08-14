@@ -3,8 +3,8 @@
 After setting up my Wazuh SIEM lab, I took the next step by integrating Sysmon to improve endpoint visibility and Windows telemetry.
 
 ## Screenshot
-![Splunk SOC Lab Architecture](screenshots/sysmon-1.jpg)
-![Splunk SOC Lab Architecture](screenshots/sysmon-2.jpg)
+![sysmon](screenshots/sysmon-1.jpg)
+![sysmon-2](screenshots/sysmon-2.jpg)
 
 ## What I configured
 
